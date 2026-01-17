@@ -38,7 +38,7 @@ const MenuCourses: React.FC = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {courses.map((course, index) => (
+          {courses.map((course) => (
             <div 
               key={course.title} 
               className="group relative bg-sumi border border-white/5 p-8 md:p-12 hover:border-gold/30 transition-all duration-500 flex flex-col"
