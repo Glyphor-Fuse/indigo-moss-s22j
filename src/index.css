@@ -1,1 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Zen+Old+Mincho:wght@400;700&family=Inter:wght@300;400&display=swap');
 @import "tailwindcss";
+
+@theme {
+  /* Typography */
+  --font-display: "Cormorant Garamond", serif;
+  --font-jp: "Zen Old Mincho", serif;
+  --font-body: "Inter", sans-serif;
+
+  /* Palette - Wabi Sabi Inspired */
+  --color-sumi: #0f0f10;    /* Ink Black */
+  --color-washi: #f2f0e9;   /* Rice Paper */
+  --color-gold: #cfaa6d;    /* Muted Gold */
+  --color-stone: #2c2c2e;   /* Dark Stone */
+  --color-moss: #3d4c3d;    /* Deep Green */
+  --color-clay: #8c7b70;    /* Earthy Clay */
+
+  /* Animations */
+  --animate-fade-in: fadeIn 1.5s ease-out forwards;
+  --animate-slide-up: slideUp 1.2s ease-out forwards;
+  --animate-pulse-slow: pulseSlow 4s infinite ease-in-out;
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  @keyframes slideUp {
+    from { opacity: 0; transform: translateY(40px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes pulseSlow {
+    0%, 100% { opacity: 0.6; }
+    50% { opacity: 1; }
+  }
+}
+
+/* Global Reset & Base Styles */
+html {
+  scroll-behavior: smooth;
+  background-color: var(--color-sumi);
+  color: var(--color-washi);
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Utility for Vertical Japanese Text */
+.writing-vertical {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  letter-spacing: 0.2em;
+}
+
+/* Custom Selection */
+::selection {
+  background: var(--color-gold);
+  color: var(--color-sumi);
+}
+
+/* Hide scrollbar for gallery but keep functionality */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
