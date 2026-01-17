@@ -32,20 +32,7 @@ const Philosophy: React.FC = () => {
 
           <div className="pt-8">
             <img 
-              src="<div className="relative">
-  <img 
-    src="https://images.pexels.com/photos/31827099/pexels-photo-31827099.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800" 
-    alt="A set of traditional Japanese calligraphy brushes arranged on lined xuan paper."
-    width="3208"
-    height="3833"
-    className="w-full h-full object-cover"
-  />
-  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent p-2">
-    <a href="https://www.pexels.com/photo/traditional-japanese-calligraphy-brushes-on-xuan-paper-31827099/" target="_blank" rel="noopener noreferrer" className="text-xs text-slate-400 hover:text-slate-300 transition-colors">
-      Photo by Gu Ko on Pexels
-    </a>
-  </div>
-</div>" 
+              src="https://images.pexels.com/photos/31827099/pexels-photo-31827099.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800" 
               alt="Chef Signature" 
               className="h-24 opacity-60 invert" 
             />
@@ -57,20 +44,7 @@ const Philosophy: React.FC = () => {
           <div className="absolute -inset-4 border border-washi/10 rounded-sm z-0 translate-x-2 translate-y-2 group-hover:translate-x-4 group-hover:translate-y-4 transition-transform duration-500"></div>
           <div className="relative z-10 overflow-hidden rounded-sm">
             <img 
-              src="<div className="relative">
-  <img 
-    src="https://images.pexels.com/photos/9698111/pexels-photo-9698111.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800" 
-    alt="Tattooed chef skillfully slicing fish for sushi preparation in a modern kitchen."
-    width="2048"
-    height="3072"
-    className="w-full h-full object-cover"
-  />
-  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent p-2">
-    <a href="https://www.pexels.com/photo/a-man-slicing-a-fish-while-making-a-sushi-9698111/" target="_blank" rel="noopener noreferrer" className="text-xs text-slate-400 hover:text-slate-300 transition-colors">
-      Photo by Airam Dato-on on Pexels
-    </a>
-  </div>
-</div>" 
+              src="https://images.pexels.com/photos/9698111/pexels-photo-9698111.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800" 
               alt="Chef Hands" 
               className="w-full h-[600px] object-cover grayscale group-hover:grayscale-0 transition-all duration-700 ease-in-out" 
             />

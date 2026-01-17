@@ -7,20 +7,7 @@ const Hero: React.FC = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="<div className="relative">
-  <img 
-    src="https://images.pexels.com/photos/29518226/pexels-photo-29518226.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200" 
-    alt="Freshly prepared assorted sushi in traditional Japanese packaging displayed in a market."
-    width="7008"
-    height="4083"
-    className="w-full h-full object-cover"
-  />
-  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent p-2">
-    <a href="https://www.pexels.com/photo/delicious-assorted-sushi-in-japanese-packaging-29518226/" target="_blank" rel="noopener noreferrer" className="text-xs text-slate-400 hover:text-slate-300 transition-colors">
-      Photo by G N on Pexels
-    </a>
-  </div>
-</div>" 
+          src="https://images.pexels.com/photos/29518226/pexels-photo-29518226.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200" 
           alt="Sushi Counter Background" 
           className="w-full h-full object-cover scale-105 animate-[pulseSlow_10s_infinite_alternate]" 
         />
